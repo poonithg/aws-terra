@@ -12,4 +12,4 @@ Storing the Terraform state remotely offers several advantages:
 - **VERSIONING**: Many remote state backends offer versioning, allowing us to track changes to the state over time. This can be crucial for auditing and troubleshooting.
 - **REMOTE STATE BACKENDS**: Terraform supports a variety of remote state backends, including cloud object storage services (e.g. AWS S3, Azure Blob Storage), databases (e.g. Hashicorp Consul, etcd) and other storage solutions.
 
-https://github.com/poonithg/aws-terra/blob/s3-backend/de.png
+![Screenshot](de.png)
