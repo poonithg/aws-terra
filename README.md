@@ -1,8 +1,8 @@
-# aws-terra
-Details in separate branches
+# AWS INFRA WITH TWO SUBNETS IN ONE VPC
 
-# s3-backend
-The s3-backend branch is for creating a remote state backend in S3 bucket & DynamoDB.
+The infrastructure contains one VPC. 
+This VPC contains two subnets (public & private).
 
-# vpc
-The vpc branch is for creating a vpc with two subnets (private & public). We have 1 server in each subnet.
+We also have one server in each subnet. Each server is attached with a security group.
+
+The private instance will have a static IP using aws network interface.
